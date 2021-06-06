@@ -54,10 +54,11 @@ img {
 }
 .container {
 	display: grid;
-	width: 90%; 
+	width: 93%; 
 	margin: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 1fr);
+	color: #000;
 }
 .item1{
 	grid-column: 1/5;
@@ -87,8 +88,8 @@ img {
 	grid-row: 4/5;
 }
 input[type="radio"]:checked:after {
-	width: 10px;
-	height: 10px;
+	width: 13px;
+	height: 13px;
 	border-radius: 100%;
 	position: relative;
 	top: -2px;
@@ -143,8 +144,8 @@ label{
   		padding: 5px 11px 5px 11px;
 	}
 }	
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
 	label {
 		font-size: 0.7rem;
 	}
-}	 */
+}	
