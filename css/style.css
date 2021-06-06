@@ -126,3 +126,18 @@ input[type="radio"]:checked:after {
   		padding: 5px;
 	}
 }
+@media (max-width: 375px) {
+	.urgency{
+		width: 63%;
+	}
+}
+@media (min-width: 376px) and (max-width: 555px) {
+	.urgency {
+		width: 62%;
+	}
+@media (min-width: 454px) and (max-width: 554px) {
+	.urgency {
+		width: 59%;
+	}
+}	
+}
