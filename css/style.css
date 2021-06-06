@@ -135,9 +135,14 @@ input[type="radio"]:checked:after {
 	.urgency {
 		width: 62%;
 	}
+}	
 @media (min-width: 454px) and (max-width: 554px) {
 	.urgency {
 		width: 59%;
 	}
 }	
-}
+@media (max-width: 290px) {
+	.urgency {
+		width: 68%;
+	}
+}	
