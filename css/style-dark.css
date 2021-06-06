@@ -16,10 +16,7 @@ h2{
 	text-decoration: none;
 	color: #fff;
 }
-/*.overall {
-	background-color: #000;
-}*/
-.middle-page {
+.container {
 	color: #fff;
 }
 input[type="radio"]:after {
