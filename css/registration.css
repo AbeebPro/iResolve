@@ -1,0 +1,131 @@
+@import url("menu.css");
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+i {
+	color: #000;
+}
+h3, h4, h5 {
+	text-align: center;
+}
+h3{
+	color: red;
+	font-family: "Montserrat", sans-serif;
+}
+h4{
+	color: orange;
+}
+.container {
+	width: 50%;
+	margin: 2% auto;
+	padding: 1% 5%;
+	border: 0.1px solid transparent;
+	box-shadow: 20px 20px 3px orange;
+	background-color: #FFF;
+}
+.brand {
+	color: blue;
+	text-shadow: 2px 2px 3px grey;
+	background-color: none;
+	font-family: "Ubuntu", sans-serif;
+	margin-left: 10px;
+}
+.letter-i {
+	color: red;
+}
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+.radio-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+}
+.second-label {
+	margin-left: 7%;
+}
+select {
+	background-color: #000;
+	color: #fff;
+}
+input[type="text"], input[type="email"], input[type="password"]  {
+	background-color: #000;
+	padding: 0.4% 0 0.4% 1.5%;
+	margin: 0.2% 0;
+	color: #fff;
+	font-size: 0.8rem;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: bold;
+}
+input[type="submit"] {
+  background-color: orange;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 11px 10px 11px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  width: 105px;
+  border-width: 0;
+  margin: 55px auto 0;
+}
+input[type="radio"]:checked:after {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	position: relative;
+	top: -2px;
+	left: -1px;
+	content: "";
+	display: inline-block;
+	background-color: #000;
+	border: 2px solid white;
+}
+a {
+	text-decoration: none;
+	color: red;
+	font-family: "Ubuntu", sans-serif;
+}
+.home {
+	text-align: left;
+	margin-top: 60px;
+}
+.home a{
+	text-decoration: none;
+	color: orange;
+}
+
+@media (max-width: 575px) {
+	.brand {
+		margin-left: 10px;
+		text-align: center;
+	}
+	.container {
+		width: 80%;
+		padding: 7% 5%;
+		box-shadow: 6px 10px 3px orange;
+	}
+	input[type="text"], input[type="email"], input[type="password"]{
+		padding: 0.2% 0 0.2% 1.5%;
+		font-size: 0.6rem;
+	}
+	h3{
+		font-size: 0.9rem;
+	}
+	h4,h5{
+		font-size: 0.7rem;
+	}
+	input[type="submit"] {
+	  font-size: 0.8rem;
+	  padding: 5px;
+	}
+}
+@media (min-width: 576px) and (max-width: 1000px) {
+	.container {
+		width: 60%;
+	}
+}

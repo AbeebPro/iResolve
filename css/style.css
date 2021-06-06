@@ -1,0 +1,128 @@
+@import url("menu.css");
+body {
+	margin: 0;
+	padding: 0;
+	font-style: none;
+	background-color: #fff;
+}
+i {
+	color: #000;
+}
+.overall {
+	width: 80%;
+	margin: 0 auto;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+}
+.brand {
+	color: blue;
+	text-shadow: 2px 2px 3px grey;
+	background-color: none;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: bold;
+	margin-top: 15%;
+}
+.letter-i {
+	color: red;
+}
+h2, h3 {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+h2{
+	color: grey;
+}
+h3{
+	color: red;
+}
+h4{
+	font-size: 1rem;
+	font-family: "Ubuntu", sans-serif;
+}
+.registration {
+	text-align: center;
+}
+.registration a{
+	text-decoration: none;
+	color: #000;
+}
+img {
+	width: 95%;
+	margin: auto;
+}
+.middle-page {
+	width: 90%; 
+	margin: auto;
+}
+.urgency{
+	display: flex;
+	width: 54%;
+	justify-content: space-between;
+}
+.tag{
+	display: flex;
+	justify-content: space-between;
+}
+input[type="radio"]:checked:after {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	position: relative;
+	top: -2px;
+	left: -1px;
+	content: "";
+	display: inline-block;
+	background-color: #000;
+	border: 2px solid white;
+}
+/*label{
+	margin: 0 40px 0 0;
+}*/
+.report{
+	display: flex;
+	justify-content: flex-end;
+}
+.btn {
+  background-color: red;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 11px 10px 11px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  width: 105px;
+  border-width: 0;
+  margin: 40px 20px;
+}
+
+.btn:hover {
+  background-color: grey;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+	.overall {
+		width: 100%;
+	}
+	.brand {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	h2, h3 {
+		font-size: 0.8rem;
+	}
+	.urgency{
+		width: 58%;
+	}
+	h4{
+		font-size: 0.8rem;
+	}
+	.btn {
+		font-size: 0.7rem;
+  		padding: 5px;
+	}
+}

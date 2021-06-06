@@ -1,0 +1,41 @@
+@import url("style.css");
+@import url("menu-dark.css");
+body{
+	background-color: #000;
+}
+i {
+	color: yellow;
+}
+h2{
+	color: #fff;
+}
+.registration {
+	text-align: center;
+}
+.registration a{
+	text-decoration: none;
+	color: #fff;
+}
+/*.overall {
+	background-color: #000;
+}*/
+.middle-page {
+	color: #fff;
+}
+input[type="radio"]:after {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	position: relative;
+	top: -2px;
+	left: -1px;
+	content: "";
+	display: inline-block;
+	background-color: grey;
+	border: 2px solid grey;
+}
+input[type="radio"]:checked:after {
+	background-color: #fff;
+	border: 2px solid #fff;
+}
+
